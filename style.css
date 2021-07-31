@@ -1,6 +1,7 @@
 * {
     padding: 5px;
     font-family: 'Gill Sans MT';
+    background-image: url(./images/bg.jpg);
     } 
 body {
     background-color: rgb(3, 3, 3);
@@ -9,7 +10,7 @@ body {
     background-attachment: fixed;
     }
 .ring{
-        color: whitesmoke;
+        color: rgb(27, 6, 6);
         font-size: 40px;
         width: auto;
         margin: 15px;
@@ -18,7 +19,7 @@ body {
 .header{
     font-family: "OCR A";
     font-size: 30px;
-    color: whitesmoke;
+    color: rgb(2, 2, 1);
     padding: 20px;
 }
 nav{
@@ -41,7 +42,30 @@ nav{
 
 .main-menu ul li a{
     text-decoration: none;
-    color: yellow;
+    color: rgb(36, 3, 58);
     font-size: 20px;
     font-family: 'Dubai';
+}
+.slider{
+	margin:50px auto;
+	width:50%;
+}
+ 
+.img-box img{
+	width:100%;
+}
+
+.btn{
+	border:none;
+	outline:none;
+	background:#888;
+	padding:10px 30px;
+	font-size: 20px;
+	color:#ddd;
+	cursor: pointer;
+	margin:10px auto;			 
+}
+
+.btn:hover{
+	background: #111;
 }
