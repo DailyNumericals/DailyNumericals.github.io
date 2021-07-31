@@ -211,7 +211,7 @@ h5 {
     height: 100%;
     width: 100%;
     z-index: 0;
-    background-image: url(images/bg.jpg);
+    background-image: url("images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -436,7 +436,7 @@ h5 {
 
 .post-masonry .post-thumb .title-over {
     position: absolute;
-    bottom: 0;
+    
     left: 0;
     width: 100%;
     background: rgba(0,0,0,0.9);
@@ -490,4 +490,8 @@ h5 {
 
 .copyright-text a {
     color: #bfbfbf;
+}
+.ring{
+    color: #6E6;
+    
 }
