@@ -47,24 +47,28 @@ nav{
 }
 .slider{
 	margin:50px auto;
-	width:50%;
+    max-width: 900px;
+    height:auto;
+
 }
  
 .img-box img{
-	width:100%;
+    width: 100%;
+    
 }
 
 .btn{
+    
 	border:none;
 	outline:none;
 	background:#888;
-	padding:10px 30px;
-	font-size: 20px;
+	padding:10px 40px;
+	font-size: 40px;
 	color:#ddd;
 	cursor: pointer;
-	margin:10px auto;			 
+	margin:14px auto;
+    border-radius: 30px;
 }
-
 .btn:hover{
 	background: #111;
 }
