@@ -10,14 +10,15 @@ body {
     }
 .ring{
         color: rgb(27, 6, 6);
-        font-size: 40px;
+        font-size: 4vw;
         width: auto;
         margin: 15px;
-        padding-top: 20px;
+        padding-top: 10px;
+        
     }
 .header{
+    font-size: 3vw;
     font-family: "OCR A";
-    font-size: 30px;
     color: rgb(2, 2, 1);
     padding: 20px;
 }
@@ -60,17 +61,17 @@ nav{
 }
 
 .btn{
-    
+    text-align: center;
 	border:none;
 	outline:none;
 	background:#888;
 	padding:10px 40px;
-	font-size: 40px;
+	font-size: 60px;
 	color:#ddd;
 	cursor: pointer;
-	margin:14px auto;
+	margin:auto 2vh;
     border-radius: 30px;
 }
 .btn:hover{
-	background: #111;
+	background: rgb(10, 10, 10);
 }
