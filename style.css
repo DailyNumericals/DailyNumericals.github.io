@@ -1,9 +1,10 @@
 * {
     padding: 5px;
     font-family: 'Gill Sans MT';
+	background-image: url("https://github.com/DailyNumericals/DailyNumericals.github.io/blob/main/images/bg.jpg");
 }
 body {
-    background-image: url("https://github.com/DailyNumericals/DailyNumericals.github.io/blob/main/images/bg.jpg");
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
