@@ -30,6 +30,8 @@ nav{
 }
 
 .main-menu{
+    margin: 15px;
+    width: auto;
     flex: 1;
     text-align: left;
 }
@@ -41,12 +43,13 @@ nav{
 }
 
 .main-menu ul li a{
-    text-decoration: none;
+    text-decoration:rosybrown;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 4.5vw;
+    white-space: nowrap;
     font-family: 'Gill Sans MT';
-    border-style: solid;
-    background-color: rgb(0, 0, 0);
+    border-style:outset;
+    background-color: yellowgreen;
 }
 .slider{
 	margin:50px auto;

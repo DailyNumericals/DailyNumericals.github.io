@@ -2,7 +2,7 @@
 
 var slider_img = document.querySelector('.slider-img');
 var images = ['q1.png', 'q2.png', 'q3.png', 'q4.png'];
-var answers = ['A', 'B','C','D'];
+var answers = ['D', 'C','C','C'];
 var i = 0;
 var a = answers[i];
 var x;
@@ -21,6 +21,7 @@ function igset(x) {
 	classrest();
 	document.getElementById('pg'+strget).className = "active";
 	i = x - 1;
+	a = answers[i];
 	return setImg();
 }
 function prev(){
