@@ -16,10 +16,20 @@
 				<img src="../images/12/ch2/q1.png" class="slider-img">
 			</div>
 
-			<button class="btn" onclick="prev()">&laquo; Prev</button>
-			<button class="btn" onclick="next()">Next &raquo;</button>
+			<center>
+				<div class="pagination">
+				<a onclick="prev()">&laquo;</a>
+				<a id="pg1" onclick="igset(1)" class="active">1</a>
+				<a id="pg2" onclick="igset(2)">2</a>
+				<a id="pg3" onclick="igset(3)">3</a>
+				<a id="pg4" onclick="igset(4)">4</a>
+				<a onclick="next()">&raquo;</a>
+			  </div></center>
 		</div>
-
+		<center>
+		<button class = "btn1 bouncy" id = "btnsp" onclick="myFunction()">See Answer</button>
+		<p id="demo"></p></center>
+		
 		<script src="../js/ch2.js"></script>
 
 	</body>
